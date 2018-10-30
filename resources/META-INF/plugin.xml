@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>com.zt.plugin.device.monitor</id>
+  <name>Device Monitor</name>
+  <version>1.0</version>
+  <vendor email="1210514049@qq.com" url="https://github.com/zhouteng0217">zhouteng</vendor>
+
+  <description><![CDATA[启动Device Monitor.<br>
+      <em>启动Device Monitor</em>
+    ]]></description>
+
+  <change-notes>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.zt.DeviceMonitor" class="com.zt.DeviceMonitor" text="DeviceMonitorStart" description="start device monitor">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
