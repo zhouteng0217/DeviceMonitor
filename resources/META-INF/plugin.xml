@@ -5,10 +5,14 @@
   <vendor email="1210514049@qq.com" url="https://github.com/zhouteng0217">zhouteng</vendor>
 
   <description><![CDATA[启动Device Monitor.<br>
-      <em>启动Device Monitor</em>
-    ]]></description>
+      <em>一个用于启动Android Device Monitor的Android Studio插件</em>
+    ]]>
+  </description>
 
   <change-notes>
+    <![CDATA[启动Device Monitor.<br>
+      <em>一个用于启动Android Device Monitor的Android Studio插件</em>
+    ]]>
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
@@ -26,7 +30,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="com.zt.DeviceMonitor" class="com.zt.DeviceMonitor" text="DeviceMonitorStart" description="start device monitor">
+    <action id="com.zt.DeviceMonitor" class="com.zt.DeviceMonitor" text="DeviceMonitor" description="Start device monitor">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
     </action>
   </actions>

@@ -6,7 +6,6 @@ import com.intellij.util.EnvironmentUtil;
 
 public class DeviceMonitor extends AnAction {
 
-
     @Override
     public void actionPerformed(AnActionEvent event) {
         String osName = System.getProperty("os.name");

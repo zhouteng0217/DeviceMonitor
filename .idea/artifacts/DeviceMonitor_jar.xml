@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="DeviceMonitor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeviceMonitor_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DeviceMonitor.jar">
+        <element id="module-output" name="DeviceMonitor" />
+      </element>
+    </root>
+  </artifact>
+</component>
